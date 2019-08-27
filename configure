@@ -26,11 +26,11 @@ echo "I: Format is $FMT"
 lb config \
  --archive-areas 'main contrib non-free' \
  --backports true \
- --distribution jessie \
+ --distribution stable \
  --binary-images hdd \
  --mode debian \
- --security false \
- --updates false \
+ --security true \
+ --updates true \
  --apt-source-archives false \
  --source false \
  --apt-options "--yes -o Debug::pkgProblemResolver=true -o Debug::pkgDepCache::AutoInstall=true -o Debug::pkgDepCache::Marker=true" \
