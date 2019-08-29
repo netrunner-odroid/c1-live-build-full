@@ -10,6 +10,7 @@ odroid-boot-services
 c1-calamares-full
 netrunner-full-c1-settings
 bootini
+c1-uboot
 
 # List of recommends not to install
 libreoffice-style-tango-
